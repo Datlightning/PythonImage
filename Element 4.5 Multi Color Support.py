@@ -8,7 +8,7 @@ import time
 from elementVariable import elementInfo, Periods, Groups
 from elementNLP import autoCorrect
 from colorData import setColor
-#Debug Module
+
 import pdb
 
 switchCondition = 0
@@ -38,7 +38,7 @@ fgColor = fgColor[0:7]
 
 fontStyle = tkFont.Font(family="Courier", size=9)
 
-img_url = 'https://raw.githubusercontent.com/Datlightning/PythonImage/main/elementLogo.png'
+img_url = 'https://raw.githubusercontent.com/Datlightning/PythonImage/main/multielementLogo.png'
 response = requests.get(img_url)
 img_data = response.content
 img = ImageTk.PhotoImage(Image.open(BytesIO(img_data)))
